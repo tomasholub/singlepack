@@ -17,7 +17,6 @@ const InputField = ({ label, value, onChange }: any) => {
 				value={value}
 				onChange={handleChange}
 			/>
-			Empty: {isEmpty ? "Y" : "N"}
 		</div>
 	);
 };

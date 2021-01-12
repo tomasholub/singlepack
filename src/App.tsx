@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 
+import Header from "./Header";
 import PackAPI from "./PackAPI";
 import PackingInput from "./PackingInput";
 import PackingOutput from "./PackingOutput";
-
-const Header = () => {
-	return <h1>Single Pack</h1>;
-};
 
 const App = () => {
 	const [container, setContainer] = useState({

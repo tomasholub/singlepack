@@ -16,10 +16,10 @@ const PackingOutput = ({ data }: any) => {
 			<PackingOutputMain data={data} />
 			{notpacked.length > 0 && <PackingOutputNotPacked items={notpacked} />}
 			<PackingOutputVisualization json={data[0]} />
+			{/*
 			Output:
 			<br />
 			<textarea cols={120} rows={60} value={str} />
-			{/*
 			 */}
 		</div>
 	);

@@ -26,14 +26,14 @@ const PackingOutputMain = ({ data }: any) => {
 						<div>Width: {bin.w}</div>
 						<div>Height: {bin.h}</div>
 						<div>Depth: {bin.d}</div>
-						<div>Max. wgt.: </div>
+						<div>Max. wgt.: {bin.gross_weight}</div>
 					</div>
 					<div>
 						<div>Packed items : {packed.length}</div>
 						<div>Space taken : {bin.used_space} %</div>
-						<div>Weight taken: {bin.gross_weight} </div>
-						<div>Packing time : ???</div>
-						<div>Images generation time : ???</div>
+						<div>Weight taken : {bin.used_weight} %</div>
+						<div>Packing time : {data[0].packing_time}</div>
+						<div>Images generation time : {data[0].images_generation_time}</div>
 						<div>Not packed items : {numNotPacked}</div>
 					</div>
 				</div>
