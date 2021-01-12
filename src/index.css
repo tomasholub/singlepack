@@ -1,0 +1,139 @@
+body {
+	margin: 10;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+input[type="text"] {
+	height: 34px;
+	width: 56px;
+	padding: 0 10px 0 10px;
+}
+
+input[type="button"] {
+	height: 50px;
+	width: 200px;
+	font-size: 16px;
+	font-weight: 600;
+	color: white;
+	background-color: rgb(153, 153, 153);
+	border: 0px solid white;
+	border-bottom: 4px solid rgb(107, 107, 107);
+	border-radius: 4px;
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.42857143;
+	color: #333;
+	font-size: 24px;
+	margin: 0px;
+}
+
+.inputfield {
+	margin: 8px;
+}
+
+.inputfield input {
+	margin-top: 8px;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.inputfield div {
+}
+
+.input {
+	display: flex;
+	background: rgb(246, 246, 246);
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.output {
+	background: rgb(246, 246, 246);
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.output h2 {
+}
+
+.outputmain {
+	display: flex;
+	align-items: flex-start;
+}
+
+.outputmain2 {
+	padding-right: 20px;
+}
+
+.outputmain h3 {
+}
+
+.notpacked {
+	color: rgb(138, 109, 59);
+	background-color: rgb(252, 248, 227);
+	border: 1px solid rgb(250, 235, 204);
+	border-radius: 4px;
+	padding: 10px;
+	margin: 20px 10px 20px 0;
+}
+
+.row {
+	display: flex;
+	margin-bottom: 8px;
+	align-items: flex-end;
+}
+
+.items,
+.container {
+	padding: 10px;
+}
+
+.delete {
+	width: 40px !important;
+	color: #808080 !important;
+	background-color: transparent !important;
+	border-bottom: 0px solid rgb(107, 107, 107) !important;
+	font-size: 24px !important;
+}
+
+.visualizations {
+	display: flex;
+	margin-top: 10px;
+}
+
+.visimage {
+	padding: 4px;
+}
+
+.dimensions {
+	display: flex;
+}
+
+.dimensions div {
+	padding-right: 20px;
+}
+
+.empty {
+	border: 1px solid red !important;
+	background: rgb(255, 240, 240);
+}
+
+.visualization {
+	margin-top: 20px;
+}
+
+.visualizations div div {
+	margin-bottom: 10px;
+}
